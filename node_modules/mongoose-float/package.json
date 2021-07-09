@@ -1,0 +1,34 @@
+{
+  "name": "mongoose-float",
+  "version": "1.0.4",
+  "description": "This library can solve one well known problem with JavaScript Number arithmetic imprecise, when, for example, 3.3 * 3 becomes 9.899999999999999, ugly.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vnkitaev/mongoose-float.git"
+  },
+  "keywords": [
+    "mongoose",
+    "money",
+    "float",
+    "number",
+    "toFixed"
+  ],
+  "author": {
+    "name": "Ivan Kitaev",
+    "email": "vnkitayev@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "6.0.2",
+    "should": "13.2.3",
+    "mongoose": ">=4.x <=5.x"
+  },
+  "peerDependencies": {
+    "mongoose": ">=4.x <=5.x"
+  }
+}
